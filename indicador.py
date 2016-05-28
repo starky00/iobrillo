@@ -21,7 +21,7 @@ class AppIndicatorBrillo:
 		self.ind = appindicator.Indicator ("example-simple-client", "indicator-messages", appindicator.CATEGORY_APPLICATION_STATUS)
 		self.ind.set_status(appindicator.STATUS_ACTIVE)
 		self.ind.set_attention_icon ("indicator-brillo")
-		self.ind.set_icon("/home/starky/auto.png")
+		self.ind.set_icon("/home/auto.png") #Colocar donde prefiramos
 
 		# create a menu
 		self.menu = gtk.Menu()
